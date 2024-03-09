@@ -13,3 +13,13 @@ def subtract(*args) -> int:
 
 
 print(subtract(4, 3, 2, 5))
+
+
+def multiply(*args) -> int:
+    mult = args[0]
+    for i in args[1:]:
+        mult *= i
+    return mult
+
+
+print(multiply(4, 3, 2, 5))
