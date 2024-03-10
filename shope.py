@@ -1,0 +1,1 @@
+print("sale start at 2 pm")
